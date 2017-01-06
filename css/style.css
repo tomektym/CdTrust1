@@ -14,7 +14,7 @@ body {
 }
 #divHeader {
 	width: 700px;
-	background-image:url(img/header-bg.jpg);
+	background-image:url('../img/header-bg.jpg');
 	text-align: center;
 }
 #divHeader img {
