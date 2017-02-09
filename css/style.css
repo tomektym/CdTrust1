@@ -7,10 +7,13 @@ body, h1, h2, h3, h4, h5, h6, div, ul, li, p {
 body {
 	font-family: Verdana, Geneva, sans-serif;
 	background-image : url('../img/nogusa2.jpg');
+	background-attachment: fixed;
 	}
 #divWrapper {
 	width: 700px;
 	margin: 20px auto;
+	border-left: solid #B2DDC2 2px;
+	border-right: solid #B2DDC2 2px;
 	}
 #divHeader {
 	width: 700px;
@@ -80,6 +83,7 @@ body {
 	background:#333;
 	background:-moz-linear-gradient(top, #000, #666);
 	background:-webkit-gradient(linear, left top, left bottom, from(#000) to(#666));
+	
 	}
 #divNav ul li a.current, #divNav ul li a.current:hover {
 	background:#333;
@@ -94,6 +98,30 @@ body {
 	padding-bottom: 60px;
 	padding-top: 60px;
 	}	
+#divAbout_A {
+	width: 700px;
+	height: 459px;
+	background-image : url('../img/hand3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	}
+#divAbout_A img{
+	margin-left: 225px;
+	margin-top: 32px;
+	display: block;
+	box-shadow: 3px 3px 13px #222;
+	width: 50px;
+	height:50px;
+	
+}	
+#divAbout_A img:hover{
+	z-index:2;
+    transform: scale(1.2);
+	transition-duration: 1s;
+	
+	
+}
 #divContent {
 	width: 530px;
 	font-family: 'PT Sans', sans-serif;
@@ -107,6 +135,7 @@ body {
 	box-shadow: 1px 1px 4px #000;
 	opacity: 0.9;
 	}
+
 #divContent img {
 	float: left;
 	border: 1px solid #000;
@@ -120,6 +149,7 @@ body {
 	
 	border-radius: 10px;
 	}
+
 #divContent h5 {
 	color: #fff;
 	padding-top: 0.8em;
